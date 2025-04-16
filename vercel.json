@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm install --ignore-scripts && npm run build",
+  "installCommand": "npm install --ignore-scripts",
+  "framework": "create-react-app",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+} 

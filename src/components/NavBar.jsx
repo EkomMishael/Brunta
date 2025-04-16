@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import profilePic from '../assets/default-pfp.jpg';
 import { auth } from '../config';
+import BRUNTA_LOGO from '../assets/Brunta_transparent_logo_CAP.png'
 
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 
@@ -166,9 +167,9 @@ export default function NavBar({ userClone, realUser, setUser, toggleDarkMode, i
                <path clipRule="evenodd" fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
             </svg>
          </button>
-        <Link to={'/dashboard'} className="flex ms-2 md:me-24">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
-          <span className={`self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white ${ blockOrHidden ? 'sm:block' : 'sm:hidden' } xl:block`}>Brunta</span>
+        <Link to={'/dashboard'} className="flex md:me-24">
+          <img src={BRUNTA_LOGO} className="h-8 mr-1 mb-1 me-3" alt="Brunta Logo" />
+          <span className={`self-center  text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white ${ blockOrHidden ? 'sm:block' : 'sm:hidden' } xl:block`}>Brunta</span>
         </Link>
         </div>
         <div className="flex items-center">
