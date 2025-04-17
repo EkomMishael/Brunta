@@ -16,7 +16,22 @@
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.7.2",
     "react-toastify": "^9.1.3",
-    "react-easy-crop": "^5.0.2"
+    "react-easy-crop": "^5.0.2",
+    "react-draft-wysiwyg": "^1.15.0",
+    "draft-js": "^0.11.7",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^5.0.1",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.1",
+    "slick-carousel": "^1.8.1",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "date-fns": "^3.3.1",
+    "formik": "^2.4.5",
+    "yup": "^1.3.3",
+    "axios": "^1.6.7",
+    "lodash": "^4.17.21"
   },
   "scripts": {
     "start": "react-scripts start",
